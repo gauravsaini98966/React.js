@@ -3,12 +3,13 @@ import './App.css';
 import Navbar from '../src/F_Website/Navbar';
 import First_page from './F_Website/First_page';
 import Second_page from './F_Website/Second_page';
-import Fourth_page from './F_Website/Fourth_page';
+import Fourth_page from '../src/F_Website/Fourth_page';
 import Fother from './F_Website/Fother';
 // import Fifth_page from './F_Website/Fifth_page';
+import Sixth_page from '../src/F_Website/Sixth_page'
+import Sevnth_page from './F_Website/Sevnth_page';
 
-
-
+import Eight_page from './F_Website/Eight_page';
 
 
 
@@ -16,11 +17,13 @@ function App() {
   return (
     <>
 <Navbar/>
-<First_page/>
+ <First_page/>
 <Second_page/>
 <Fourth_page/>
-<Fifth_page/>
-<Fother/>
+<Sixth_page/>
+<Sevnth_page/>
+<Eight_page/>
+<Fother/>  
 </>
 
   );
