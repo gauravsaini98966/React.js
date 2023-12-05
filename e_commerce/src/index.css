@@ -11,3 +11,691 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* /wishlist header */
+.containerr {
+  margin: 96px 135px 580px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+
+  padding-bottom: 80px;
+}
+
+.headerr {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  gap: 835px;
+}
+
+.text p {
+  color: #000;
+  text-align: center;
+
+  /* Title/20PX Regular */
+  padding-top: 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 130% */
+}
+
+.btn button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+.img-box-1 {
+  display: flex;
+  width: 190px;
+  height: 180px;
+  padding: 26px 6px 25px 6px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  width: 270px;
+  height: 250px;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+}
+
+.price s {
+  padding-left: 12px;
+}
+
+.price h6 {
+  padding-top: 16px;
+}
+
+.img-box-2 {
+  display: flex;
+  width: 190px;
+  padding: 47px 0px 38px 0px;
+  justify-content: center;
+  align-items: center;
+
+  width: 270px;
+  height: 250px;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+}
+
+.img-box-3 {
+  display: flex;
+  width: 190px;
+  height: 180px;
+  padding: 15px 6px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  width: 270px;
+  height: 250px;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+}
+
+.img-box-4 {
+  display: flex;
+  width: 190px;
+  height: 180px;
+  padding: 2px 4px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  width: 270px;
+  height: 250px;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+}
+
+.addcart button {
+  width: 270px;
+  height: 41px;
+  flex-shrink: 0;
+
+  border-radius: 0px 0px 4px 4px;
+  background: var(--Button, #000);
+
+
+  color: #FFF;
+
+  /* Title/12PX Regular */
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  /* 150% */
+}
+
+#cart {
+  padding-top: 5px;
+}
+
+.icon-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clr {
+  color: var(--Secondary-2, #DB4444);
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}
+
+
+/* just for you  */
+/* second section */
+
+
+.mid-part {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.text h5 {
+  color: #000;
+  text-align: center;
+
+  /* Title/20PX Regular */
+  padding-top: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 130% */
+}
+
+.btn-2 button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+
+  color: var(--Text2, #000);
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  /* 150% */
+}
+
+
+
+
+
+
+
+/* Conatct  */
+/* New page */
+
+.home {
+  margin: 80px 1175px 80px 135px;
+}
+
+
+.content_contact_ {
+  margin: 80px 135px 140px 135px;
+}
+
+.col_lg_4 {
+  padding: 40px 35px 51px 35px;
+
+  display: inline-flex;
+  padding: 40px 35px 51px 35px;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 4px;
+  background: var(--Primary, #FFF);
+
+  /* Categogy/5 */
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+
+  width: 340px;
+  height: 457px;
+
+}
+
+.col_lg_4 h6 {
+  color: var(--Text2, #000);
+
+  /* Title/14PX Regular */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 150% */
+
+}
+
+.imgg_ {
+  padding-bottom: 15px;
+}
+
+
+.call_ h6:nth-child(2) {
+  padding-top: 10px;
+  padding-bottom: 28px;
+}
+
+.write_to_us {
+  padding-top: 28px;
+}
+
+.write h6:nth-child(2) {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imgg_ span {
+
+  padding-left: 16px;
+  color: #000;
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}
+
+.row_ {
+  display: flex;
+}
+
+.col_lg_8 {
+  width: 800px;
+  height: 457px;
+
+  margin-left: 30px;
+
+  padding: 40px 32px 40px 31px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  background: var(--Primary, #FFF);
+
+  /* Categogy/5 */
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.name_email_phone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name_email_phone input {
+  width: 235px;
+  height: 50px;
+  flex-shrink: 0;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+  border-style: none;
+}
+
+.message_ {
+  padding: 32px 0px;
+}
+
+.message_ input {
+  /* width: 737px;
+  height: 207px;
+  flex-shrink: 0; */
+  padding-top: 10px;
+  padding-right: 554px;
+  padding-bottom: 178px;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+
+  border-style: none;
+}
+
+
+.send_btn {
+  float: inline-end;
+}
+
+.send_btn button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+
+  border-style: none;
+
+  color: var(--Text, #FAFAFA);
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+
+
+
+
+
+
+/* Page 3 */
+/* Checkout */
+
+/* Heading */
+
+.checkout_head {
+  margin: 80px 0px 80px 135px;
+}
+
+.checkout_head label span {
+  color: var(--Text2, #000);
+
+  /* Title/14PX Regular */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 150% */
+
+  opacity: 0.5;
+}
+
+.Billing_detail {
+  margin: 0 0 48px 135px;
+}
+
+
+.Billing_detail h1 {
+  color: var(--Text2, #000);
+
+  /* Heading/36PX Medium */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  /* 83.333% */
+  letter-spacing: 1.44px;
+}
+
+.detail {
+  padding-bottom: 32px;
+}
+
+.detail label {
+  padding-bottom: 8px;
+
+  color: var(--Text2, #000);
+
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+
+  opacity: 0.4;
+}
+
+.detail input {
+  height: 40px;
+  border: none;
+  width: 80%;
+  padding: 0px 10px;
+  outline: none;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+
+  width: 470px;
+  height: 50px;
+
+  display: flex;
+
+}
+
+.details_section span {
+  opacity: 0.9;
+  color: var(--Secondary-2, #DB4444);
+
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.detail_email label {
+  padding-bottom: 8px;
+
+  color: var(--Text2, #000);
+
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+
+  opacity: 0.4;
+}
+
+.detail_email input {
+  height: 40px;
+  border: none;
+  width: 80%;
+  padding: 0px 10px;
+  outline: none;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+
+  width: 470px;
+  height: 50px;
+
+  display: flex;
+}
+
+.context__box_ {
+  margin: 48px 135px 140px 135px;
+}
+
+.save_info {
+  padding-top: 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.save_info input{
+  height: 24px;
+  width: 24px;
+}
+
+.information h6{
+  color: #000;
+
+/* Title/16PX Regular */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+/* payment page */
+
+.items_list {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+
+  margin-top: 25px;
+
+}
+
+.products__ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 32px;
+}
+
+.first_product {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.products__ label {
+  padding-right: 185px;
+}
+
+.mrp_products_ label {
+  padding-right: 308px;
+}
+
+.total_price label {
+  padding-right: 335px;
+}
+
+.second_project {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.context__box_ {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.mrp_product label {
+  padding-right: 307px;
+}
+
+.bank_cards {
+  display: flex;
+  align-items: center;
+  gap: 170px;
+}
+
+.card_btn label {
+  padding-left: 16px;
+}
+
+.card_btn{
+  display: inline-flex;
+}
+
+.card_btn input {
+  height: 24px;
+  width: 24px;
+  border-radius: 100%;
+  align-items: center;
+}
+
+.cards_img {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.promo_code {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+
+.input_text {
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+.input_text input {
+  display: flex;
+  padding: 16px 85px 16px 24px;
+  align-items: center;
+
+  color: var(--Text2, #000);
+
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  /* 150% */
+
+  opacity: 0.5;
+}
+
+.promo_btn button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+  border-style: none;
+
+  color: var(--Text, #FAFAFA);
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}
+
+.place_order_btn button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+  border-style: none;
+
+  color: var(--Text, #FAFAFA);
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}

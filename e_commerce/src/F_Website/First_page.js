@@ -8,7 +8,7 @@ function First_page() {
   return (
     <>
     <div className='First_page'>
-        <div className='First_page_left'>
+        {/* <div className='First_page_left'>
 
             <div className='first_page_contained'>
                 <h3>Woman’s Fashion</h3> 
@@ -26,12 +26,12 @@ function First_page() {
               <h3>Baby’s & Toys</h3>
               <h3>Groceries & Pets</h3>
               <h3>Health & Beauty</h3>
-        </div>
+        </div> */}
 
 
 
         <div className='First_page_Right'> 
-              <img src={Image2} />
+              <img style={{marginLeft: "auto", marginRight:"auto"}} src={Image2} />
         </div>
 
     </div>

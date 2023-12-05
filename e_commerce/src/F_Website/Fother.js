@@ -61,7 +61,7 @@ function Fother() {
                  <img src={Qrcode}/>
                  </div>
                  <div className='stores'>
-                 <img src={Google_play} />
+                 <img src={Google_play} /><br/>
                  <img src={Apple_play} />
                  </div>
 

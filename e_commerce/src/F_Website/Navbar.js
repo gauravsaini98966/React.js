@@ -1,10 +1,11 @@
 import React from 'react';
 import '../MYcss/Style.css';
+import '../MYcss/Responsive.css';
 import { Link } from 'react-router-dom'
-import Image1 from '../Picture/Component 2.png'
-import Image2 from '../Picture/Cart1.png'
-import Image3 from '../Picture/Vector.png'
-
+import Image1 from '../Picture/Searchbar.png'
+import Image2 from '../Picture/likeeee.png'
+import Image3 from '../Picture/Cartaaaa.png'
+import Image4 from '../Picture/menu.png'
 function Navbar() {
   return (
     <div className='Navbar'>
@@ -31,11 +32,36 @@ function Navbar() {
                </div>
 
                <div className='Navbar_Search_2'>
-                <img src={Image3} alt=''/>
+            
                 <img src={Image2} alt=''/>
+                <img src={Image3} alt=''/>
                </div>
+
+
                
        </div>
+
+{/* 
+       <div id='mobile'>
+
+        <div className='Mobile_icon'>
+        <img src={Image4}/>
+        </div>
+   
+
+
+      <div className='Navmenu_mobile'>
+         <ul>
+            <li><a  href='#' >Home</a></li>
+            <li><a href='#' >Contant</a></li>
+            <li><a href='#' >About</a></li>
+            <li><a href='#' >Sign Up</a></li>
+         </ul>
+       </div> */}
+
+       {/* </div> */}
+
+
     </div>
   )
 }

@@ -9,7 +9,7 @@ import Star1 from '../Picture/fstar1.png'
 import Star2 from '../Picture/fstar2.png'
 
 
-export const Data=[
+export const Products_Data=[
      {
    Img:cloth,
    name:"The north coat",
@@ -29,8 +29,8 @@ Img2:Star1
   {
      Img:Speaker,
      name:"RGB liquid CPU Cooler",
-  prize:"$260",
-  prize2:"$360",
+  prize:"$160",
+  prize2:"$170",
   Img2:Star2
   },
 
@@ -38,7 +38,7 @@ Img2:Star1
   {
      Img:Table,
      name:"Small BookSelf",
-      prize:"$260",
+      prize:"$360",
      Img2:Star1
   },
 ]

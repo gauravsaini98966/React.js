@@ -6,14 +6,7 @@ import left_icon from '../Picture/Left Arrow.png';
 import Second_css from '../MYcss/Style.css'
 import Ellipse from '../Picture/Ellipse.png'
 
-import Frame1 from '../Picture/Frame1.png';
-import Frame2 from '../Picture/Frame2.png';
-import Frame3 from '../Picture/Frame3.png';
-import Frame4 from '../Picture/Frame4.png';
-import Frame_star from '../Picture/Frame star1.png'
-import Frame_star2 from '../Picture/Frame star2.png'
-import Frame_star3 from '../Picture/Frame star3.png'
-import Frame_star4 from '../Picture/Frame star4.png'
+import  {Flash} from '../Short_Components/Second';
 
 function Second_page() {
   return (
@@ -61,15 +54,9 @@ function Second_page() {
 
           </div>
 
-          <div className='Third_page_3'>
-
-
-          <img className='Third_page_3_img1' src={left_icon}/>
-        
-         <img className='Third_page_3_img3' src={right_icon}/>
-       
-            
-          </div>
+          <div className='fifth_page_button' >    
+      <button>View All</button>
+        </div>
 
 
 
@@ -77,45 +64,36 @@ function Second_page() {
 
 
 
+        <div className='Third_page_row'>{
+        Flash.map((product,index)=>{
+          return (
+            <div key={index} className='Third_page_row3'>
+
+
+            <div className='Third_page_row3_img_text'>
+              <div className='Third_page_row3_img'>
+              <img src={product.img} />
+              </div>
+              <button>{product.button}</button> 
+           
+            <h1>{product.name}</h1>
+            <h2>{product.prize} <span>{product.prize2}</span></h2>
+            <img className='frame_star' src={product.img2} />
+            </div>
+            
+            
+             </div>
+            
+          )
+        })
+
+        }
+
+        </div>
+
  
 
 
- <div className='Third_page_row3'>
-<div className='Third_page_row3_img_text'>
-  <img src={Frame1} />
-<h1>HAVIT HV-G92 Gamepad</h1>
-<h2>$120 <span>$160</span></h2>
-<img className='frame_star' src={Frame_star} />
-</div>
-
-
-<div className='Third_page_row3_img_text'>
-  <img src={Frame2} />
-<h1>AK-900 Wired Keyboard</h1>
-<h2>$960 <span>$1160</span></h2>
-<img src={Frame_star2} />
-</div>
-
-
-
-
-<div className='Third_page_row3_img_text'>
-  <img src={Frame3} />
-<h1>IPS LCD Gaming Monitor</h1>
-<h2>$370 <span>$400</span></h2>
-<img src={Frame_star3} />
-</div>
-
-
-
-<div className='Third_page_row3_img_text'>
-  <img src={Frame4} />
-<h1>HAVIT HV-G92 Gamepad</h1>
-<h2>$370 <span>$400</span></h2>
-<img src={Frame_star4} />
-</div>
-
- </div>
 
 
 <div className='Third_page_row4'>

@@ -8,6 +8,8 @@ import Layout from './Layout';
 import Home from './Component/Home';
 import About from '../src/Component/About'
 import Contact from './Component/Contact';
+import User  from './Component/User';
+import Github from '../src/Component/Github'; 
 
  
 // const router=createBrowserRouter([
@@ -40,7 +42,9 @@ const router =createBrowserRouter(
     <Route path='' element={<Home/>}/>
     <Route path='about' element={<About/>}/>
     <Route path='Contact' element={<Contact/>}/>
-
+    <Route path='Userid' element={<User/>}/>
+    <Route path='github' element={<Github/>}/>
+    
     </Route>
   
   )

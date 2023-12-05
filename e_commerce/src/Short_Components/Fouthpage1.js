@@ -10,8 +10,8 @@ export const ProductData=[{
     name:"Categories",
     name2:"Browse By Category",
 
-    img:"Left_img",
-    img2:"Right_Arrow"
+    // img:"Left_img",
+    // img2:"Right_Arrow"
 },
 
 ]

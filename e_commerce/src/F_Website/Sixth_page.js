@@ -22,12 +22,28 @@ function Sixth_page(){
           </div>
           <button>Buy Now!</button>
        </div>
+ 
 
        <div className="Speaker">
+
     <img src={Speaker}/>
        </div>
+
+
+       
         </div>
         </>
     )
 }
 export default Sixth_page;
+
+
+
+
+
+
+
+
+
+
+
