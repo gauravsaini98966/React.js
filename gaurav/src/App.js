@@ -17,7 +17,7 @@ import Fifth_page from './F_Website/Fifth_page';
 function App() {
   return (
     <>
-<Navbar/>
+{/* <Navbar/> */}
  <First_page/>
 <Second_page/>
 <Fourth_page/>
