@@ -10,6 +10,7 @@ import Sixth_page from '../src/F_Website/Sixth_page'
 import Sevnth_page from './F_Website/Sevnth_page';
 
 import Eight_page from './F_Website/Eight_page';
+import Fifth_page from './F_Website/Fifth_page';
 
 
 
@@ -20,6 +21,7 @@ function App() {
  <First_page/>
 <Second_page/>
 <Fourth_page/>
+<Fifth_page/>
 <Sixth_page/>
 <Sevnth_page/>
 <Eight_page/>
