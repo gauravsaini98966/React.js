@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "React.js",
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../Clone_React"
+		}
+	],
+	"settings": {
+		"editor.columnSelection": false,
+		"editor.guides.bracketPairs": "active"
+	}
+}
