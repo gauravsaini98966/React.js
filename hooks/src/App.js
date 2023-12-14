@@ -8,6 +8,9 @@ import './App.css';
 // import Parants from './parants';
 // import userState from './useState/useState';
 // {useState} from 'react';
+import {AppProvider} from './UserContext/userContext'
+import Parent from './parants'
+import userContext from './UserContext/userContext';
 function App() {
 
   const useData={
@@ -15,55 +18,11 @@ function App() {
     age:23,
 
   }
-  // const[click,setClick]=useState(0);
-  // const click=useState('gaurav')
-  // const[click,setClick]=useState(0);
-  // const[click,setClick]=useState([]);
-  // const addnumber =()=>{
-    
-  //   setClick([...click,
-  //   {
-  //     id:click.length,
-  //     value:Math.random()*10
-  //    }
-  //   ])
-  // }
-  
+
   
   return(
-{/* <userState/> */}
+<Parent/>
   )
-  // <Parants user={useData}/>
-    // <Time/>
-    // <div>
-    //   <p>your clicked{click}</p>
-    //   <button onClick={()=>setClick(click+1)}>click me</button>
-    // </div>
-        //  <h1>welcome to {click}</h1>
-        // <p>the number of times</p>
-
-      
-        
-        
-// <div>
-//   {/* <p>you clicked{click}</p>
-//   <p >the number of times you have clicked {click % 2 == 0 ?'even':'odd' }</p>
-// <button onClick={()=>{setClick(click=>click+1)}}>click me</button> */} 
-
-// <ul>
-//   {click.map(item=>(
-//     <li key={item.id}>{item.value}</li>
-//   ))}
-// </ul>
-// <button onClick={addnumber}>click me</button>
-// </div>
-    
-// {/* <Usestate/> */}
-// {/* <UseEffects/> */}
-// {/* <parants/> */}
-
-
-  
 }
 
 export default App;
