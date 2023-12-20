@@ -1,34 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from '../src/F_Website/Navbar';
-import First_page from './F_Website/First_page';
-import Second_page from './F_Website/Second_page';
-import Fourth_page from '../src/F_Website/Fourth_page';
-import Fother from './F_Website/Fother';
-// import Fifth_page from './F_Website/Fifth_page';
-import Sixth_page from '../src/F_Website/Sixth_page'
-import Sevnth_page from './F_Website/Sevnth_page';
-
-import Eight_page from './F_Website/Eight_page';
-import Fifth_page from './F_Website/Fifth_page';
+import { createContext } from "react";
 
 
+const data=createContext();
+const data1= createContext();
+// import child from "./child";
+import React from 'react'
 
 function App() {
+  const name="gaurav";
+  const age=12
+
   return (
     <>
-{/* <Navbar/> */}
- <First_page/>
-<Second_page/>
-<Fourth_page/>
-<Fifth_page/>
-<Sixth_page/>
-<Sevnth_page/>
-<Eight_page/>
-<Fother/>  
-</>
+    <data.Provider value={name}>
+      <data1.Provider value={age}>
 
-  );
+      </data1.Provider>
+
+    </data.Provider>
+    </>
+  )
 }
 
-export default App;
+export default App
+export {data,data1};

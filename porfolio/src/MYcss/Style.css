@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, "Ubuntu";
+    scroll-behavior: smooth;
+}
+.Navheader{
+    background-color: rgba(0, 0, 0, 0.938);
+
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    
+    background: black;
+    position: fixed;
+    padding: 30px 50px;
+    top: 0px;
+    left: 0px;
+    
+    width: 100vw;
+    align-items: center;
+    z-index: 10;
+
+}
+.logo{
+    display: flex;
+    opacity: 0;
+    animation: sliderRight 1s ease forwards;
+
+
+
+}
+@keyframes  sliderRight  {
+   0%{
+    transform: translateX(-150px);
+    opacity: 0;
+   }
+   100%{
+    transform: translateX(0px);
+    opacity: 1;
+   }
+
+    
+}
+.logo span{
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+}
+.logo span:nth-child(2){
+color: #2253c8;
+}
+.Navbar_menu{
+padding: 0px 15px;
+}
+.Navbar_menu ul{
+    display: flex;
+    animation: slidertop 1s ease forwards;
+opacity: 0;
+    
+}
+
+@keyframes  slidertop {
+    0%{
+     transform: translateY(-150px);
+     opacity: 0;
+    }
+    100%{
+     transform: translateY(0px);
+     opacity: 1;
+    }
+ 
+     
+ }
+
+.Navbar_menu ul li{
+    
+    list-style: none;
+
+}
+.Navbar_menu_link{
+    text-decoration: none;
+    padding: 0px 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Navbar_menu_link:hover{
+    color:#2253c8;
+    transition: 0.4s;
+    /* font-size: 18px; */
+    
+}
+
+
+
+
+
+#mobile{
+    display: none;
+}
+
+.Name{
+    color:white;
+    font-weight:500;
+}
+.home{
+    line-height: 50px;
+    animation: sliderleft 1s ease forwards;
+    opacity: 0;
+}
+
+@keyframes  sliderleft{
+    0%{
+     transform: translateX(-150px);
+     opacity: 0;
+    }
+    100%{
+     transform: translateX(0px);
+     opacity: 1;
+    }
+ 
+     
+ }
+.btn{
+    
+ 
+    
+}
+.btn button{
+    /* border: 3px solid white; */
+    padding: 10px 14px;
+    border-radius: 6px;
+    background-color: #2253c8;
+    color: white;
+    font-weight: 500;
+    line-height: none;
+    outline: none;
+}
+
+.btn button:hover{
+    border:1px solid #2253c8;
+    background-color: black;
+    color: #2253c8;
+    transition: 0.7s;
+    outline: none;
+    
+}
+.Porfolio_img{
+    animation: slidertop 1s ease forwards;
+    opacity: 0;
+}
+
+@keyframes  slidertop{
+    0%{
+     transform: translateY(-150px);
+     opacity: 0;
+    }
+    100%{
+     transform: translateY(0px);
+     opacity: 1;
+    }
+ 
+     
+ }
+
+
+.Porfolio_img img{
+    border-radius: 50% 50%;
+
+}
+
+.Home_paragraph{
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 5px;
+}
+.text_animation{
+    color: #2253c8;
+    text-decoration: underline;
+}
+
+
+/* ------------about page------------------ */
+.About_img {
+    opacity: 0;
+    animation: slide  1s ease forwards;
+    animation-delay: 0.3s;
+}
+.About_img img{
+    border-radius: 50%;
+
+}
+@keyframes slide{
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
+}
+.About {
+    /* padding: 230px 40px; */
+    padding-top: 230px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+
+    /* align-items: start; */
+
+}
+.About_detait{
+    /* padding: 300px 50px; */
+    /* text-align: start; */
+    opacity: 0;
+    animation: slidetopp  1s ease forwards;
+    animation-delay: 0.3s;
+
+
+}
+@keyframes slidetopp{
+    0%{
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+.About_detait h1 span{
+    color: #2253c8;
+}
+.about_me:nth-child(2){
+color: #1e5cec;
+text-decoration: underline;
+
+} 
+.About_detait p{
+    line-height: 28px;
+    font-size: 17px;
+    word-wrap: inherit;
+}
+.About_btn{
+/* margin: 0px 3px; */
+display: inline-block;
+
+}
+.About_btn button{
+    padding: 10px 18px;
+    /* border: 1px solid black; */
+    /* gap: 4px; */
+    margin: 0px 6px;
+    border-radius: 6px;
+    color: white;
+    background-color: #2253c8;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid;
+    font-weight: 500;
+}
+.About_btn button:hover{
+    border: 1px solid #2253c8;
+    color:#2253c8;
+    background-color: white;
+}
+.Tool{
+    padding: 80px 120px;
+    /* display: flex; */
+}
+.Tool h1{
+    opacity: 0;
+    animation: slideleft 1s ease forwards;
+    animation-delay: 0.2s;
+}
+@keyframes slideleft{
+    0%{
+        transform: translateX(-250px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+
+    }
+}
+.Tool h1 span{
+    color: #2253c8;
+}
+.Tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* padding: 60px 0px; */
+    padding-top: 60px;
+    gap: 123px
+}
+.tools_img{
+/* display: flex; */
+}
+
+.tools_img img{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    /* padding: 0px ; */
+    margin: auto ;
+    opacity: 0;
+    animation: slideright 1s ease forwards;
+    animation-delay: 0.2s;
+
+    
+
+}
+
+@keyframes slideright{
+    0%{
+        transform: translateX(250px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
+}
+
+.tools_img h1{
+    /* font-size:; */
+    color: white;
+    padding: 19px 0px;
+}
+
+
+.Fother h2 span{
+color:#2253c8;
+}

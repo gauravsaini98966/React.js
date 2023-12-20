@@ -5,15 +5,17 @@
 			"path": "."
 		},
 		{
-			"name": "Clone_React",
-			"path": "../Clone_React"
+			"name": "DSA",
+			"path": "../DSA"
 		},
 		{
-			"path": "E:/git"
+			"name": "Node.js",
+			"path": "../Node.js"
 		}
 	],
 	"settings": {
 		"editor.columnSelection": false,
-		"editor.guides.bracketPairs": "active"
+		"editor.guides.bracketPairs": "active",
+		"liveServer.settings.multiRootWorkspaceName": "DSA"
 	}
 }

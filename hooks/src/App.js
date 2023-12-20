@@ -11,17 +11,14 @@ import './App.css';
 import {AppProvider} from './UserContext/userContext'
 import Parent from './parants'
 import userContext from './UserContext/userContext';
+import  useref  from './UserContext/useref';
 function App() {
 
-  const useData={
-    name:"gaurav",
-    age:23,
-
-  }
+ 
 
   
   return(
-<Parent/>
+<useref/>
   )
 }
 

@@ -1,0 +1,58 @@
+ @media screen and (max-width:830px){
+
+
+    .Navbar_menu{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    
+    }
+    .mobile_button{
+        position: absolute;
+        top: 32px;
+        right: 23px;
+      
+    }
+    
+    .mobile_button button{
+    border: 1.5px solid rgb(121, 121, 119);
+    border-radius: 5px;
+    padding: 4px 8px;
+
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+    }
+    .mobile_button button img{
+    font-size: 20px;
+    color: white;
+    }
+    .mobile_button ul{
+        display: block;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        top: 66px;
+        padding: 0px 0px;
+        right: -23px;
+        width: 50vw;
+        height: 29vh;
+  
+        text-align: center;
+        opacity: 0;
+
+    }
+    .mobile_button ul li{
+     
+        list-style-type: none;
+        padding: 6px 0px;
+    }
+ }
+
+
+
+
+
+ @media screen and (max-width:420px){
+
+ }
