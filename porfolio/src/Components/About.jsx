@@ -4,7 +4,7 @@ import { Data } from '../Data/Home_Data'
 import '../MYcss/Style.css'
 function About() {
   return (
-    <div className='About flex '>
+    <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000"  className='About flex '>
         <div className='About_img'>{
               Data.map((product,index)=>{
                 return(

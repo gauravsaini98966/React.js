@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "React.js",
+			"path": "../.."
+		},
+		{
+			"name": "DSA",
+			"path": "../../../DSA"
+		},
+		{
+			"path": "../../../Node.js"
+		}
+	],
+	"settings": {
+		"editor.columnSelection": false,
+		"editor.guides.bracketPairs": "active",
+		"liveServer.settings.multiRootWorkspaceName": "DSA"
+	}
+}

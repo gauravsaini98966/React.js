@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import {Provider} from 'react';
+import { store } from './reduxcontainer/Store';
 
 function App() {
   return (
- <h1>helo</h1>
+ <Provider store={store}>
+  
+
+ </Provider>
   );
 }
 
