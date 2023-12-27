@@ -345,10 +345,19 @@ display: inline-block;
 }
 
 
+
 /* -----------skill------------------ */
+.Skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .Skill_left_bottom_span{
     background: #b7b6b6;
     
+}
+.skill_level {
+    background: #2253c8;
 }
 
 

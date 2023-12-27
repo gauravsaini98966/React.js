@@ -6,6 +6,7 @@ import About from './Components/About';
 import Tools from './Components/Tool';
 import Fother from './Components/Fother';
 import Skill from './Components/Skills';
+import Contect from './Components/Contect';
 
 function App() {
   return (
@@ -14,8 +15,10 @@ function App() {
 <Navbar/>
    <Home/>
 <About/>
+<Contect/>
 <Tools/>
 <Skill/>
+
 <Fother/>
     </div>
     

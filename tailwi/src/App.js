@@ -1,56 +1,39 @@
-// import logo from "./logo.svg";
-import "./App.css";
-import styles from "./Style";
-import {    Navbar,
-  Billing,
-  CardDeal,
-  Business,
-  Clients,
-  CTA,
-  Stats,
-  Footer,
-  Testinomial,
-  Hero,
-
-
-} from './Components'
+import React from 'react'
+// import InputBox from './Component/InputBox';
+import {useEffect,useState} from 'react'
+// import{usestate} from 'react'
+// import InputBox from './Component/InputBox';
 
 function App() {
+
+  const [productData ,setProductData]=useState({});
+
+  const getproductData=async()=>{
+    await fetch('https://dummyjson.com/products/1')
+    .then(res=>res.json())
+    .then(json=>{setProductData(json.products);console.log(json)})
+  }
+
+  useEffect(()=>{
+    getproductData();
+    console.log("data=>",productData);
+
+  },[])
+
   return (
-    <div className=" bg-black w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-        </div>
-          <Navbar/>
-      </div>
-
-
-      <div className={`bg-black ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-    <Hero/>       
-    </div>
-      </div> 
-
-   
-
-{/* 
-<div className={`bg-black ${styles.paddingX} ${styles.flexStart} `}>
-  <div className={`${styles.boxWidth}`}>
-<Business/>
-<Stats/>
-<Billing/>
-<CardDeal/>
-<Testinomial/>
-<Clients/>
-<CTA/>
-<Footer/>
-  </div>
-
-</div> */}
-
-
-    </div>
-  );
+  <>
+  <h1>API Data</h1>{
+  //  { console.log("data=>",productData)}
+  }
+  {productData.map((item,index)=>{
+    return(
+      <div key={index}>{item.title}</div>
+    )
+  })}
+  </> 
+      
+  
+  )
 }
 
 export default App;

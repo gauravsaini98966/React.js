@@ -12,13 +12,16 @@ import {AppProvider} from './UserContext/userContext'
 import Parent from './parants'
 import userContext from './UserContext/userContext';
 import  useref  from './UserContext/useref';
+import Useeffact from './Exersize/Useeffact';
 function App() {
 
  
 
   
   return(
-<useref/>
+
+<Useeffact/>
+
   )
 }
 

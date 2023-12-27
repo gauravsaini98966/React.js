@@ -1,5 +1,8 @@
 import React from 'react'
-import {Skils} from '../Data/Skill'
+import {Skils} from '../Data/Skill';
+import {Creative_skill} from '../Data/Skill'
+
+
 
 
 function Skills() {
@@ -18,14 +21,16 @@ function Skills() {
                     return(
                   
                         <div key={index} className='Skill_left_bottom_1'>
-                      <img className='w-[25px] h-[25px] rounded-full' src={product.img}/>
-                      <div className='Skill_left_bottom_name flex gap-[30%]'>
+                      <img className='w-[25px] h-[25px] rounded-full' src= {product.img}/>
+                      <div className='Skill_left_bottom_name flex justify-between '>
                       <h1>{product.name}</h1>
-                      <span>{product.span}</span>
+                      <span className=''>{product.span}</span>
                       </div>
                       
-                      <div>
-                      <span className='Skill_left_bottom_span'></span>
+                      <div className=' rounded w-96 h-2  bg-black'>
+                      <div  className='skill_level w-80 h-2 '>
+                  
+                      </div>
                       </div>
                      
 
@@ -48,10 +53,22 @@ function Skills() {
 
         <div className='Skill_right'>
           <div className='Skill_right_top'>
-          <h1>Professional Skills</h1>
+          <h1>Soft and Creative Skills</h1>
           </div>
 
-          <div className='Skill_right_bottom'>
+          <div className='Skill_right_bottom'>{
+             Creative_skill.map((product,index)=>{
+              return(
+                <div key={index}>
+                  <ul>
+                    <li>{product.text}</li>
+                  </ul>
+
+                </div>
+              )
+             })
+
+          }
 
           </div>
 
