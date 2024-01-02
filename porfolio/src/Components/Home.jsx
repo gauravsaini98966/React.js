@@ -40,7 +40,7 @@ HTML, CSS, JavaScript,React.js,Mongo db and Node.js.
 
 </p>
 <div className='btn'>
-<button  className='text-3xl  '>Hire me</button>
+<button  className='text-3xl '>Hire me</button>
 </div>
 </div>
 

@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif, "Ubuntu";
+    font-family: "Ubuntu",sans-serif;
     scroll-behavior: smooth;
 }
 .Navheader{
@@ -347,10 +347,15 @@ display: inline-block;
 
 
 /* -----------skill------------------ */
+
+.skill_heading span{
+color: #2253c8;
+}
 .Skills{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  
+    
+    /* padding: 40px; */
+    gap: 40px;
 }
 .Skill_left_bottom_span{
     background: #b7b6b6;
@@ -359,8 +364,63 @@ display: inline-block;
 .skill_level {
     background: #2253c8;
 }
+.Skill_left_top h1{
+    /* text-decoration: underline; */
 
+}
 
+.input1{
+    gap: 18px;
+}
+.input1 input{
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.input2{
+gap: 18px;
+display: grid;
+padding: 10px 0px;
+}
+
+.input2 input{
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px ;
+    padding: 10px 10px;
+}
+.input2 textarea{
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px ;
+    padding: 10px 10px;
+}
+.Contact_right {
+
+}
+.Contact_right button{
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    padding: 10px 14px;
+    color: white;
+    background: #2253c8;
+    cursor: pointer;
+    border: 1px solid;
+
+}
+.Contact_right button:hover{
+    color: #2253c8;
+    background-color: white;
+    border: 1px solid #2253c8;
+}
+.Contact_left_bottom1{
+padding: 8px 0px;
+}
+.Contact_left_bottom1 img{
+    width: 24px;
+    
+}
 .Fother h2 span{
 color:#2253c8;
 }

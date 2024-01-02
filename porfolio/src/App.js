@@ -7,18 +7,21 @@ import Tools from './Components/Tool';
 import Fother from './Components/Fother';
 import Skill from './Components/Skills';
 import Contect from './Components/Contect';
+import Projects from './Components/Projects';
 
 function App() {
   return (
     <>
     <div className=''>
+      
 <Navbar/>
    <Home/>
 <About/>
-<Contect/>
-<Tools/>
+<Projects/>
 <Skill/>
+<Tools/>
 
+<Contect/>
 <Fother/>
     </div>
     
