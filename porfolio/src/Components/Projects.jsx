@@ -12,7 +12,7 @@ function Projects() {
     <div key={index} className=''>
       <img src={data.img}/>
       <h1>{data.Name}</h1>
-    </div>
+      </div>
     )
   })
 

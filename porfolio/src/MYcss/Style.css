@@ -424,3 +424,57 @@ padding: 8px 0px;
 .Fother h2 span{
 color:#2253c8;
 }
+
+
+/* ////////////////project//////// */
+
+.Project{
+    box-shadow: blue;
+    /* box-shadow: 1px 1px 10px 2px #1d1d1d; */
+} 
+.projects{
+    /* box-shadow: blue; */
+    /* padding: 5px 0px; */
+    /* box-shadow: 1px 1px 10px 2px #1d1d1d; */
+}
+.Project_1{
+    box-shadow: 1px 1px 10px 2px #1d1d1d;
+    /* transform: scale(1); */
+}
+
+.Project_1:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.Project_1 img{
+    width: 286px;
+    height: 175px;
+
+}
+.project_img {
+    display: flex;
+    gap: 24px;
+}
+.project_img img{
+    width: 66px;
+    height: 65px;
+    border-radius: 50%;
+}
+.project_button{
+    display: flex;
+    gap: 20px;
+}
+.project_button button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #2253c8;
+    border: 1px solid   #2253c8; ;
+    color: white;
+    transition: 0.7s;
+    outline: none;
+}
+.project_button button:hover{
+color:#2253c8;
+border: 1px solid #2253c8;
+background-color: black;
+}
