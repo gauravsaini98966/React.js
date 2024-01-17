@@ -29,4 +29,4 @@ import linkdin from '../Img/linkdin-contect.jpg'
             
                 },
 ]
-// export default Media;
+export default Media;

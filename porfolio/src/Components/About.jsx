@@ -21,9 +21,9 @@ function About() {
         <div className='About_detait px-[40px] py-12'>
             <h1 className='text-4xl font-semibold'>About <span>Me</span> </h1>
             <div className='About_span py-4'>
-            <span className='text-3xl font-medium p'>I'm Gaurav and I'm a </span>
+            <span className='text-3xl font-medium'>I'm Gaurav and I'm a </span>
 
-            <span className='about_me text-3xl font-mediam  '>
+            <span className='about_me text-3xl font-mediam my-2  '>
   
      <span >
      <Typical

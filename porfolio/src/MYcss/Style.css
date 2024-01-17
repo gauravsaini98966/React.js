@@ -141,6 +141,7 @@ opacity: 0;
     font-weight: 500;
     line-height: none;
     outline: none;
+    border: 1px solid #2253c8;
 }
 
 .btn button:hover{
@@ -430,16 +431,13 @@ color:#2253c8;
 
 .Project{
     box-shadow: blue;
-    /* box-shadow: 1px 1px 10px 2px #1d1d1d; */
 } 
 .projects{
-    /* box-shadow: blue; */
-    /* padding: 5px 0px; */
-    /* box-shadow: 1px 1px 10px 2px #1d1d1d; */
+   
 }
 .Project_1{
     box-shadow: 1px 1px 10px 2px #1d1d1d;
-    /* transform: scale(1); */
+
 }
 
 .Project_1:hover{

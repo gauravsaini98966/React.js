@@ -25,7 +25,6 @@ function App() {
 <Fother/>
     </div>
     
-       {/* <Home/> */}
     </>
  
   );

@@ -1,12 +1,17 @@
 import React from 'react'
-// import { useEffect } from 'react'
-// import { useState } from 'react'
-import Navbar from './Components/Navbar';
 
+import Index from './Counter/index'
 function App() {
 
   return (
- <Navbar/>
+
+    <>
+<div>
+  <Index/>
+</div>
+
+
+    </>
   )
 }
 
