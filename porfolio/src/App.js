@@ -8,13 +8,14 @@ import Fother from './Components/Fother';
 import Skill from './Components/Skills';
 import Contect from './Components/Contect';
 import Projects from './Components/Projects';
+// import Component from '../../hooks/src/Ifact/MyComponent'
 
 function App() {
   return (
     <>
     <div className=''>
-      
-<Navbar/>
+       
+ <Navbar/>
    <Home/>
 <About/>
 <Projects/>
@@ -22,7 +23,8 @@ function App() {
 <Tools/>
 
 <Contect/>
-<Fother/>
+<Fother/> 
+
     </div>
     
     </>
